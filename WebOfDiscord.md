@@ -32,6 +32,9 @@
 
 ### How stats are used:
 #
+Level:
+- The level of the player
+
 Health:
 - How much damage a player can take before being killed
 - When under 50% health, player has 1/2 their movement stat
@@ -116,7 +119,7 @@ C - container
 ### Basic Player Data Sheet:
 #
 User: `<username>`
-Stats: `Health: <health>, Move: <move>, Luck: <luck>, Defense: <defense>, Unarmed Attack: <unarmed_attack>, Class/Species: <class/species>, Homebrew Stats: {...}`\
+Stats: `Level: <level>, Health: <health>, Move: <move>, Luck: <luck>, Defense: <defense>, Unarmed Attack: <unarmed_attack>, Class/Species: <class/species>, Homebrew Stats: {...}`\
 Items: `{...}`\
 Equiped Items: `{...}`\
 Movement Log: `{...}`
