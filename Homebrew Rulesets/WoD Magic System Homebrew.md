@@ -28,3 +28,5 @@
     - `<stuff_here>`
 - Misc. Changes
     - `<stuff_here>`
+#
+*Made by: @storycaster and @nadelio*
