@@ -1,0 +1,30 @@
+# Magic System Homebrew:
+- Adds `Mana` stat
+    - All classes except `Wizard` have a `2` in `Mana`
+    - Mana is used whenever a class uses a skill that has a skill classification of "Spell" or "Uses Mana"
+    - Using a spell that drains more mana than what the player has will take away the rest of the needed mana from the player's health
+    - Mana is regenerated every turn, the amount of mana generated is calculated using: `<base_mana_stat> * <level>`
+    - Players start with their class's base mana and then gain more as they complete turns
+    - Mana cap is calculated using: `<base_mana_stat> * <level> * 10`
+    - Going over the Mana cap will cause `1 * <overflowed_mana>` every turn until the player's mana goes back under the Mana cap
+- Adds `Wizard` class
+    - Stats: `{8, 3, 2, 1, 3}`
+    - Mana Stat: `{5}`
+- Skills/Mastery Skills
+    - Expel Mana
+        - Uses Mana
+        - Remove 1d6 Mana from the player's Mana
+    - Create Mana Crystal
+        - Uses Mana
+        - Use 6 Mana to create a crystal, Mana used does not count towards Mana stat
+    - `<more_stuff_here>`
+- Items
+    - Mana Crystal
+        - A crystal made of Mana
+        - Can be created with the `Create Mana Crystal` skill
+        - Mana Crystals can be absorbed back into the Mana stat, adding 6 Mana to the stat
+    - `<stuff_here>`
+- Special Rules
+    - `<stuff_here>`
+- Misc. Changes
+    - `<stuff_here>`
