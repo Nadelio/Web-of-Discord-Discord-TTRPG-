@@ -6,10 +6,13 @@
     - `<special items of classes/species>`
     - `<basic stat levels for all classes for added stat(s)>`
 - Skills/Mastery Skills
-    - `<stuff_here>`
+    - `<skill_name>`
+        - `<skill_behaviors>`
 - Items
-    - `<stuff_here>`
+    - `<item_name>`
+        - `<item_behaviors>`
 - Special Rules
-    - `<stuff_here>`
+    - `<rule_name (optional)>`
+        - `<rule>`
 - Misc. Changes
-    - `<stuff_here>`
+    - `<document_other_changes_that_don't_fit_elsewhere_here>`
